@@ -1,66 +1,79 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:title" content="Zach Fitzgerald - UI Developer">
-    <meta name="msapplication-TileColor" content="#1B46F2">
-    <meta name="theme-color" content="#1B46F2">
-    <meta name="description" content="UI Developer">
-    <meta name="author" content="Zach Fitzgerald">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <title>
-      Zach Fitzgerald / UI Developer / Engineer / Web Developer / Utah
-    </title>
-    <link rel="canonical" href="https://zachfitzgerald.com/">
-    <link
-      href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap"
-      rel="stylesheet"
-   >
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Zach Fitzgerald - Software Engineer - Utah</title>
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="icon" href="./assets/favicon/favicon.ico" type="image/x-icon">
   </head>
   <body>
-    <div class="l_container">
-      <div class="l_spacing text-shadow">
-        <img src="img/portrait.jpg" class="portrait">
-        <h1>Zach Fitzgerald</h1>
-        <h2>UI Developer &nbsp;&#9679;&nbsp; Since 2001</h2>
-        <div>
-          <a
-            href="https://www.linkedin.com/in/zacharyfitzgerald"
-            target="_blank"
-            class="btn btn--primary"
-          >
-            LinkedIn
-          </a>
-          <a
-            href="https://github.com/zachfitz"
-            target="_blank"
-            class="btn btn--passive"
-          >
-            GitHub
+    <main>
+      <header class="header">
+        <img alt="Logo of Zach Fitzgerald's initials Z.F. in a shield" src="./assets/img/logo@2x.png" class="header__logo" />
+        <h1>
+          Zach Fitzgerald
+        </h1>
+        <h2>Staff Software Engineer</h2>
+        <h3>Front-End Emphasis</h3>
+      </header>
+      <section class="details">
+        <div class="details__experience">
+          <strong>20+ years</strong>
+          Crafting Applications
+        </div>
+        <div class="details__portrait">
+          <a href="https://www.linkedin.com/in/zacharyfitzgerald" rel="external">
+            <img alt="Portrait of Zach Fitzgerald" src="./assets/img/portrait@2x.jpg" />
           </a>
         </div>
-      </div>
-    </div>
-    <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(["_setAccount", "UA-37890121-1"]);
-      _gaq.push(["_trackPageview"]);
-      (function() {
-        var ga = document.createElement("script");
-        ga.type = "text/javascript";
-        ga.async = true;
-        ga.src =
-          ("https:" == document.location.protocol
-            ? "https://ssl"
-            : "http://www") + ".google-analytics.com/ga.js";
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
+        <div class="details__location">
+          <span class="details__location__mark" aria-hidden="true">★</span>
+          Greater Salt Lake Area
+        </div>
+      </section>
+      <section class="recommendation">
+        <p class="recommendation__quote">
+          <span class="recommendation__quote__mark recommendation__quote__mark--start">“</span>
+          Zach is the only person I’ve worked with that is both extremely <strong>well-versed</strong>
+          in his craft and also a <strong>great communicator</strong> and <strong>leader</strong>.
+          <span class="recommendation__quote__mark recommendation__quote__mark--end">”</span>
+        </p>
+        <a href="https://www.linkedin.com/in/zacharyfitzgerald" rel="external" class="recommendation__link">
+          <img alt="Zach's LinkedIn Profile" src="./assets/img/li@2x.png" />
+        </a>
+      </section>
+      <section class="expertise">
+        <ul>
+          <li>
+            <span class="expertise__icon" aria-hidden="true">🏆</span>
+            <p>
+              Longtime technical leader for best-in-class, <strong>award-winning</strong> software.
+              Millions of paid, active users from the world's <strong>top 100 enterprises</strong>.
+            </p>
+          </li>
+          <li>
+            <span class="expertise__icon" aria-hidden="true">🌱</span>
+            <p>
+              A proven <strong>culture-setter</strong>, lifelong learner, nurturing mentor, and <strong>enduring expert</strong>: excellence within startups, unicorns, and enterprises.
+            </p>
+          </li>
+          <li>
+            <span class="expertise__icon" aria-hidden="true">🧢</span>
+            <p>
+              <strong>Depth and breadth</strong> has had me wearing multiple hats: from frontend to full-stack, native mobile, and more... but <strong>frontend</strong> disciplines are where I'm mighty.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section class="contact">
+          <a href="https://www.linkedin.com/in/zacharyfitzgerald" rel="external" class="button contact__button"><span class="button__icon">👋</span> Reach Out</a>
+          <p>I'd love to hear from you.</p>
+      </section>
+      <section class="footer">
+          &copy; <script>document.write(new Date().getFullYear());</script> Crafted with ♥ by Zach Fitzgerald.
+      </section>
+    </main>
   </body>
 </html>

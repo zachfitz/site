@@ -1,0 +1,261 @@
+html {
+    font-size: 16px;
+    line-height: 150%;
+}
+
+body {
+    background: url('../img/bg@2x.jpg?v=2.0.1') no-repeat top center;
+    color: #112531;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.025rem;
+    margin: 0 auto;
+    text-align: center;
+    text-shadow: 0 0.05rem 0 #ffffffa6;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+h2 {
+    color: #0065a4;
+    font-size: 1.25rem;
+    margin: 1rem;
+}
+
+h3 {
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 400;
+    margin: 1rem;
+}
+
+.button {
+    background: #112531;
+    border: solid 0.125rem #fff;
+    border-radius: 0.3rem;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.125rem;
+    padding: 0.5rem 2rem;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+.button:focus, .button:hover {
+    background: #000;
+    border: solid 0.125rem yellow;
+}
+
+.button:active {
+    border: solid 0.125rem #0065a4;
+}
+
+.button .button__icon {
+    margin-right: 0.25rem;
+}
+
+.header {
+    margin-bottom: 1.25rem;
+    margin-top: 1.5rem;
+}
+
+.header__logo {
+    width: 3rem;
+}
+
+.details {
+    margin: 3rem 0;
+}
+
+.details__experience {
+    background: url('../img/laurel-wreath.svg?v=2.0.1') no-repeat center;
+    background-size: contain;
+    min-height: 5.5rem;
+    padding-top: 2rem;
+}
+
+.details__experience > strong {
+    display: block;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.details__portrait {
+    margin: 3rem 0.5rem;
+}
+
+.details__portrait img {
+    border-radius: 0.5rem;
+    width: 12rem;
+}
+
+.details__location {
+    background: url('../img/location.svg?v=2.0.1') no-repeat center;
+    background-size: contain;
+    margin: 0 auto;
+    min-height: 6rem;
+    width: 11rem;
+}
+
+.details__location__mark {
+    display: block;
+    letter-spacing: 0.75rem;
+}
+
+.recommendation {
+    border: solid 0.125rem #11253112;
+    border-style: solid none;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.recommendation__quote {
+    font-size: 1.15rem;
+    font-style: italic;
+    line-height: 1.475rem;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.recommendation__link > img {
+    display: block;
+    margin: 2rem auto 0;
+    width: 1.75rem;
+}
+
+.expertise {
+    padding: 3rem 0 1.5rem;
+}
+
+.expertise > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.expertise > ul > li {
+    padding: 1.5rem 3rem;
+}
+
+.expertise__icon {
+    display: block;
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+    opacity: 0.5;
+    text-align: center;
+}
+
+.contact {
+    border: solid 0.125rem #11253112;
+    border-style: solid none;
+    padding: 2rem;
+}
+
+.footer {
+    font-size: 0.75rem;
+    opacity: 0.5;
+    padding: 3rem;
+}
+
+.contact > p {
+    margin: 1rem 0 0;
+}
+
+.contact__button {
+    display: inline-block;
+}
+
+/* Larger resolution overrides */
+@media only screen and (min-width: 768px) {
+    body {
+        max-width: 44rem;
+    }
+
+    h1 {
+        font-size: 4.75rem;
+        font-weight: 300;
+        letter-spacing: 0.25rem;
+        line-height: 4.5rem;
+        margin: 0 0 3rem;
+        margin: 0 0 3rem;
+    }
+
+    h2 {
+        color: #0065a4;
+        font-size: 1.75rem;
+        font-weight: 600;
+        margin: 1rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+        font-style: italic;
+        font-weight: 400;
+        margin: 1rem;
+    }
+
+    .header__logo {
+        margin-bottom: 3rem;
+    }
+
+    .details {
+        align-items: center;
+        display: flex;
+        gap: 4.5rem;
+        justify-content: center;
+    }
+
+    .details__experience {
+        width: 11rem;
+    }
+
+    .details__portrait {
+        margin: 0;
+    }
+
+    .details__portrait img {
+        display: block;
+        max-width: 11rem;
+        width: auto;
+    }
+
+    .recommendation__quote {
+        font-size: 1.5rem;
+        line-height: 1.875rem;
+    }
+
+    .recommendation__quote__mark {
+        font-size: 6rem;
+        font-style: normal;
+        opacity: 0.25;
+        position: absolute;
+    }
+
+    .recommendation__quote__mark--start {
+        top: 0;
+        left: -1rem;
+    }
+
+    .recommendation__quote__mark--end {
+        bottom: -2rem;
+        right: -3rem;
+    }
+
+    .expertise > ul {
+        display: flex;
+        gap: 2rem;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        text-align: left;
+    }
+
+    .expertise > ul > li {
+        flex: 1;
+        padding: 0;
+    }
+}
