@@ -31,6 +31,18 @@ h3 {
     margin: 1rem;
 }
 
+.sr-only {
+    border-width: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
+}
+
 .button {
     background: #112531;
     border: solid 0.125rem #fff;
