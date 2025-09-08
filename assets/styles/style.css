@@ -223,17 +223,20 @@ h3 {
     }
 
     .details__experience {
-        width: 11rem;
+        width: 33.333%;
     }
 
     .details__portrait {
         margin: 0;
+        width: 33.333%;
     }
 
     .details__portrait img {
-        display: block;
         max-width: 11rem;
-        width: auto;
+    }
+
+    .details__location {
+        width: 33.333%;
     }
 
     .recommendation__quote {
