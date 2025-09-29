@@ -4,7 +4,8 @@ html {
 }
 
 body {
-    background: url('../img/bg@2x.jpg?v=2.0.1') no-repeat top center;
+    background: url('../img/bg@2x.jpg?v=2.0.2') no-repeat -2.5vh center;
+    background-size: cover;
     color: #112531;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 0.025rem;
@@ -57,7 +58,7 @@ h3 {
 
 .button:focus, .button:hover {
     background: #000;
-    border: solid 0.125rem yellow;
+    border: solid 0.125rem #ffea00;
 }
 
 .button:active {
@@ -82,7 +83,7 @@ h3 {
 }
 
 .details__experience {
-    background: url('../img/laurel-wreath.svg?v=2.0.1') no-repeat center;
+    background: url('../img/laurel-wreath.svg?v=2.0.2') no-repeat center;
     background-size: contain;
     min-height: 5.5rem;
     padding-top: 2rem;
@@ -104,7 +105,7 @@ h3 {
 }
 
 .details__location {
-    background: url('../img/location.svg?v=2.0.1') no-repeat center;
+    background: url('../img/location.svg?v=2.0.2') no-repeat center;
     background-size: contain;
     margin: 0 auto;
     min-height: 6rem;
