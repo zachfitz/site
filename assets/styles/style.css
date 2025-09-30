@@ -56,13 +56,13 @@ h3 {
     text-shadow: none;
 }
 
-.button:focus, .button:hover {
+.button:hover {
     background: #000;
     border: solid 0.125rem #ffea00;
 }
 
 .button:active {
-    border: solid 0.125rem #0065a4;
+    border: solid 0.125rem #00f024;
 }
 
 .button .button__icon {
@@ -99,8 +99,18 @@ h3 {
     margin: 3rem 0.5rem;
 }
 
+.details__portrait a {
+    border-radius: 0.5rem;
+}
+
+.details__portrait a:focus-visible {
+    outline: solid 4px #0275b4;
+    outline-offset: 4px;
+}
+
 .details__portrait img {
     border-radius: 0.5rem;
+    vertical-align: middle;
     width: 12rem;
 }
 
@@ -133,7 +143,17 @@ h3 {
     position: relative;
 }
 
+.recommendation__link:focus-visible {
+    outline: solid 4px #0275b4;    
+}
+
+.recommendation__link:focus-visible > img {
+    outline: solid 4px #0275b4;
+    outline-offset: 3px;
+}
+
 .recommendation__link > img {
+    border-radius: 4px;
     display: block;
     margin: 2rem auto 0;
     width: 1.75rem;
@@ -157,7 +177,7 @@ h3 {
 .expertise__icon {
     display: block;
     font-size: 3.5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
     opacity: 0.5;
     text-align: center;
 }
@@ -181,6 +201,11 @@ h3 {
 
 .contact__button {
     display: inline-block;
+}
+
+.contact__button:focus-visible {
+    outline: solid 4px #0275b4;
+    outline-offset: 3px;
 }
 
 /* Larger resolution overrides */
@@ -229,7 +254,6 @@ h3 {
 
     .details__portrait {
         margin: 0;
-        width: 33.333%;
     }
 
     .details__portrait img {
